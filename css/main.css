@@ -126,3 +126,32 @@ h2 {
     color: #fff;
 }
 
+
+
+
+
+
+
+
+.advantages {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.advantages__list {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
+.advantages__item {
+    max-width: 207px;
+    width: 100%;
+}
+
+.advantages__text {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
