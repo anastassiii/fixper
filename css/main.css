@@ -221,3 +221,52 @@ h2 {
     text-align: center;
     color: #96317d;
 }
+
+
+
+
+.ratings {
+    background: #fafafa;
+    padding: 50px 0;
+}
+
+.ratings__list {
+    display: flex;
+    gap: 30px;
+}
+
+.ratings__item {
+    max-width: 370px;
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+    padding: 35px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ratings__value, .ratings__count {
+    display: block;
+}
+
+.ratings__info {
+    padding-right: 29px;
+    border-right: 1px solid #e3e3e3;
+}
+
+.ratings__logo {
+    margin-left: 29px;
+}
+
+.ratings__value {
+    font-weight: 500;
+    line-height: 114%;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.ratings__main {
+    font-weight: 700;
+    font-size: 35px;
+}
