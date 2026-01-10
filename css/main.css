@@ -155,3 +155,69 @@ h2 {
     font-size: 18px;
     line-height: 130%;
 }
+
+
+
+
+
+
+/* ===== Pricing ===== */
+.pricing {
+    padding: 100px 0;
+}
+
+.pricing__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing__table-wrapper {
+    overflow-x: auto;
+}
+
+.pricing__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing__table th,
+.pricing__table td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.pricing__table th {
+    font-weight: 400;
+}
+
+.pricing__table th,
+.pricing__table td {
+    padding: 25px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* первый столбец — влево */
+.pricing__table th:first-child,
+.pricing__table td:first-child {
+    text-align: left;
+}
+
+/* второй и третий столбцы — вправо */
+.pricing__table th:nth-child(2),
+.pricing__table th:nth-child(3),
+.pricing__table td:nth-child(2),
+.pricing__table td:nth-child(3) {
+    text-align: right;
+}
+
+.pricing__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #96317d;
+}
