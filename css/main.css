@@ -425,3 +425,62 @@ h2 {
 .faq__item[open] .faq__icon::after {
     display: none;
 }
+
+
+
+
+
+
+
+.callback {
+    padding: 100px 0;
+    background-image: url("../img/callback-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.callback__inner {
+    border-radius: 15px;
+    background: #fff;
+    padding: 50px 87px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.callback__text {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #171717;
+}
+
+.callback__discount {
+    font-weight: 700;
+    color: #a95094;
+}
+
+.callback__form {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.callback__input {
+    display: block;
+    border-radius: 10px;
+    background: #f5f5f5;
+    padding: 25px 30px;
+}
+
+.callback__btn {
+    border-radius: 15px;
+    background: #a95094;
+    padding: 25px 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
