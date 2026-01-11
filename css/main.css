@@ -159,6 +159,62 @@ h2 {
 
 
 
+/* ===== Diagnostics ===== */
+
+
+.diagnostics {
+    background-color: #fafafa;
+}
+
+.diagnostics__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diagnostics__image {
+    margin-right: calc((100vw - 1200px) / -2);
+}
+
+.diagnostics__subtitle {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #a95094;
+}
+
+.diagnostics__problems {
+    margin-top: 50px;
+    max-width: 594px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.diagnostics__btn {
+    border-radius: 15px;
+    border: 1px solid #96317d;
+    padding: 15px 29px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #96317d;
+}
+
+.diagnostics__hint {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 
 
 /* ===== Pricing ===== */
