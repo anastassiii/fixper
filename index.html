@@ -285,30 +285,72 @@
     </section>
 
     <section class="callback" id="callback">
-    <div class="container callback__container">
-        <div class="callback__inner">
-            <div class="callback__content">
-                <h2 class="callback__title">Вызов мастера</h2>
-                <p class="callback__text">
-                    Оставьте заявку сейчас и получите
-                    <span class="callback__discount">скидку 15%</span>
-                </p>
+        <div class="container callback__container">
+            <div class="callback__inner">
+                <div class="callback__content">
+                    <h2 class="callback__title">Вызов мастера</h2>
+                    <p class="callback__text">
+                        Оставьте заявку сейчас и получите
+                        <span class="callback__discount">скидку 15%</span>
+                    </p>
+                </div>
+
+                <form class="callback__form">
+                    <input 
+                        type="tel" 
+                        class="callback__input" 
+                        placeholder="Номер телефона"
+                        required
+                    >
+                    <button type="submit" class="callback__btn">
+                        Заказать звонок
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container contacts__container">
+
+            <div class="contacts__map">
+                <!-- Здесь будет карта -->
+                <iframe 
+                    src=""
+                    class="contacts__iframe"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
-            <form class="callback__form">
-                <input 
-                    type="tel" 
-                    class="callback__input" 
-                    placeholder="Номер телефона"
-                    required
-                >
-                <button type="submit" class="callback__btn">
-                    Заказать звонок
-                </button>
-            </form>
+            <div class="contacts__content">
+                <h2 class="contacts__title">Контактная информация</h2>
+
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <span class="contacts__address">ул. Стрелковая, д. 14 (офис 1)</span>
+                        <span class="contacts__time">8:00—21:00 без выходных</span>
+                    </li>
+
+                    <li class="contacts__item">
+                        <span class="contacts__address">ул. Карла Маркса, д. 33 (диспетчерская)</span>
+                        <span class="contacts__time">7:00—23:00 без выходных</span>
+                    </li>
+
+                    <li class="contacts__item">
+                        <a href="mailto:iavaisov@gmail.com" class="contacts__email">
+                            iavaisov@gmail.com
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="tel:+1234567890" class="contacts__btn">
+                    Позвонить
+                </a>
+            </div>
+
         </div>
-    </div>
-</section>
+    </section>
     
 </body>
 </html>
