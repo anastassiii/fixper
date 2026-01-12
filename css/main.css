@@ -176,7 +176,7 @@ h2 {
     margin-right: calc((100vw - 1200px) / -2);
 }
 
-.diagnostics__subtitle {
+.subtitle {
     display: block;
     margin-bottom: 15px;
     font-weight: 700;
@@ -278,6 +278,184 @@ h2 {
     color: #96317d;
 }
 
+
+
+.team {
+    background-color: #fafafa;
+    padding: 100px 0;
+}
+
+.team__cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.team-card {
+    max-width: 370px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.team__subtitle {
+    text-align: center;
+    text-transform: none;
+}
+
+.team__title {
+    text-align: center;
+}
+
+.team-card__stats {
+    padding: 50px 45px 30px;
+    background-color: #fff;
+}
+
+.team-card__name {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.team-card__position {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.team-card__stat {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 20px;
+}
+
+.team-card__icon {
+    width: 12px;
+    height: 10px;
+}
+
+.team-card__text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #96317d;
+}
+
+.slider__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.slider__pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider__dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #96317d;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: all 0.3s ease;
+}
+
+.slider__dot--active {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 2px solid #96317d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slider__dot--active::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #96317d;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.slider__buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.slider__btn {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.slider__btn--next {
+    color: #96317d;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+.reviews {
+    padding: 100px 0;
+}
+
+.reviews__slider {
+    margin-top: 50px;
+}
+
+.reviews__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.review-card {
+    max-width: 570px;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 75px 50px;
+}
+
+.review-card__header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.review-card__img {
+    width: 70px;
+    height: 70px;
+}
+
+.review-card__name {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.review-card__date {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.review-card__text {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+}
 
 
 
